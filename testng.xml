@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Design Pattern">
+    <test name="POM Automation">
+        <classes>
+            <class name="testRunner.BookApplicationTestRunner.TestRunner"></class>
+            <class name="testRunner.BookApplicationTestRunner.BSFirstBook"></class>
+            <class name="testRunner.BookApplicationTestRunner.BSSecondBook"></class>
+            <class name="testRunner.BookApplicationTestRunner.ProfileSectionAddBook"></class>
+            <class name="testRunner.BookApplicationTestRunner.ProfileSectionRemoveBook"></class>
+            <class name="testRunner.BookApplicationTestRunner.Logout"></class>
+            <class name="testRunner.ElementsTestRunner.ElementsCard"></class>
+            <class name="testRunner.ElementsTestRunner.TextBoxEle"></class>
+            <class name="testRunner.ElementsTestRunner.CheckBocEle"></class>
+            <class name="testRunner.ElementsTestRunner.RadioBtnEle"></class>
+            <class name="testRunner.ElementsTestRunner.WebTables.AddUserWebTables"></class>
+            <class name="testRunner.ElementsTestRunner.WebTables.EditUserWebTables"></class>
+            <class name="testRunner.ElementsTestRunner.WebTables.DeleteUserWebTables"></class>
+            <class name="testRunner.ElementsTestRunner.Buttons.DoubleClick"></class>
+            <class name="testRunner.ElementsTestRunner.Buttons.RightClick"></class>
+            <class name="testRunner.ElementsTestRunner.Links.SimpleClick"></class>
+            <class name="testRunner.ElementsTestRunner.Links.ApiCallLink"></class>
+            <class name="testRunner.ElementsTestRunner.BrokenLinks"></class>
+            <class name="testRunner.ElementsTestRunner.UpDownload.Download"></class>
+            <class name="testRunner.ElementsTestRunner.UpDownload.Upload"></class>
+            <class name="testRunner.ElementsTestRunner.DynamicProperties"></class>
+            <class name="testRunner.FormsTestRunner.FormsCard"></class>
+            <class name="testRunner.FormsTestRunner.PracticeForm"></class>
+            <class name="testRunner.FormsTestRunner.FormsCard"></class>
+            <class name="testRunner.AFWTestRunner.AFWMain"></class>
+            <class name="testRunner.AFWTestRunner.BrowserWindows.NewTab"></class>
+            <class name="testRunner.AFWTestRunner.BrowserWindows.NewWindow"></class>
+            <class name="testRunner.AFWTestRunner.BrowserWindows.NewWindowMessage"></class>
+            <class name="testRunner.AFWTestRunner.Alerts.simpleAlert"></class>
+            <class name="testRunner.AFWTestRunner.Alerts.AlertAfter5sec"></class>
+            <class name="testRunner.AFWTestRunner.Alerts.AlertwithMsg"></class>
+            <class name="testRunner.AFWTestRunner.Alerts.PromptBox"></class>
+            <class name="testRunner.AFWTestRunner.Frames"></class>
+            <class name="testRunner.AFWTestRunner.NestedFrames"></class>
+            <class name="testRunner.AFWTestRunner.ModalDialogs.smallDialog"></class>
+            <class name="testRunner.AFWTestRunner.ModalDialogs.largeDialog"></class>
+            <class name="testRunner.WidgetTestRunner.WidgetHome"></class>
+            <class name="testRunner.WidgetTestRunner.Accordian"></class>
+            <class name="testRunner.WidgetTestRunner.Autocomplete"></class>
+            <class name="testRunner.WidgetTestRunner.DateAndTime.Date"></class>
+            <class name="testRunner.WidgetTestRunner.DateAndTime.DateAndTime"></class>
+            <class name="testRunner.WidgetTestRunner.Slider"></class>
+            <class name="testRunner.WidgetTestRunner.ProgressBar"></class>
+            <class name="testRunner.WidgetTestRunner.Tabs"></class>
+            <class name="testRunner.WidgetTestRunner.ToolTips"></class>
+            <class name="testRunner.WidgetTestRunner.Menu"></class>
+            <class name="testRunner.InteractionsTestRunner.InteractionsHomePage"></class>
+            <class name="testRunner.InteractionsTestRunner.Sortable.List"></class>
+            <class name="testRunner.InteractionsTestRunner.Sortable.Grid"></class>
+            <class name="testRunner.InteractionsTestRunner.Selectable.List"></class>
+            <class name="testRunner.InteractionsTestRunner.Selectable.Grid"></class>
+            <class name="testRunner.InteractionsTestRunner.Resizable"></class>
+            <class name="testRunner.InteractionsTestRunner.Droppable.simple"></class>
+            <class name="testRunner.InteractionsTestRunner.Droppable.Accept"></class>
+            <class name="testRunner.InteractionsTestRunner.Droppable.preventPropagation"></class>
+            <class name="testRunner.InteractionsTestRunner.Droppable.revertDraggable"></class>
+            <class name="testRunner.InteractionsTestRunner.Draggable.simple"></class>
+            <class name="testRunner.InteractionsTestRunner.Draggable.AxisRestricted"></class>
+            <class name="testRunner.InteractionsTestRunner.Draggable.containerRestricted"></class>
+            <class name="testRunner.InteractionsTestRunner.Draggable.cursorStyle"></class>
+        </classes>
+    </test>
+</suite>
